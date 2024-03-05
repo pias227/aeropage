@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #ea580c;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+nav {
+  padding: 16px 0;
+  background-color: white;
+}
+.nabwrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 35px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  transition: 0.4s;
+}
+nav ul li a:hover {
+  color: var(--primary);
+}
+.dwonlodbtn {
+  background: var(--primary);
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 20px;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 18px;
+}
+.navicon {
+  margin-right: 11px;
+}
+/* banner------------ppp--------------------------------------start */
+#banner.bellicn{
+  width: 26px;
+  height: 26px;
+  background: #ea580c;
+  border-radius: 50%;
+}
+
+/* banner------------ppp--------------------------------------start */
